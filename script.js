@@ -14,7 +14,7 @@ function sortearNumeros() {
 }
 
 function addToList(num, pos) {
-  if(num.length == 2){
+  if(num.length < = 3){
     if(numEsco.includes(num)){
       alert("Numero Escolhido Anterioemente. Digite Outro numero")
     } else if (parseInt(num) > 60){
